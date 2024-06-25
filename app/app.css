@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  p,a,h1,h2,h3,span,::placeholder{
+    @apply text-white
+  }
+}
+
+@layer components{
+  .btn{
+    @apply bg-green-600 px-2 py-1 font-semibold tracking-wide
+  }
+  .card-container{
+    @apply w-full flex flex-wrap gap-10
+  }
+  .card
+}
