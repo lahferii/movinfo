@@ -1,5 +1,5 @@
 import { showCards } from "./features/cards.mjs"
-import { showNotFound } from "./features/erros.mjs"
+import { showNotFound } from "./features/errors.mjs"
 import { showDetails } from "./features/details.mjs"
 
 if (window.location.pathname == "/index.html"){
