@@ -19,7 +19,7 @@
     @apply w-full h-20 bg-zinc-900 bg-opacity-75 backdrop-blur-sm shadow-sm shadow-zinc-800 flex justify-between items-center px-5 lg:px-20 sticky top-0 z-50
   }
   .nav-link{
-    @apply text-xl font-bold tracking-widest text-green-500
+    @apply text-xl font-bold tracking-widest bg-gradient-to-tr from-[#00b09b] to-[#96c93d] text-transparent bg-clip-text
   }
   .btn{
     @apply bg-green-600 px-2 py-1 font-semibold tracking-wide hover:bg-green-700 active:scale-90 duration-300
