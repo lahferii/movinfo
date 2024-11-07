@@ -3,7 +3,7 @@ import { showNotFound } from "./features/errors.mjs"
 import { showDetails } from "./features/details.mjs"
 import { getAllMovies, getSelectedMovie } from "./features/requests.mjs"
 
-if (window.location.pathname == "/index.html"){
+if (window.location.pathname == "/" || window.location.pathname == "/index.html"){
   const search = document.querySelector("#input")
   const btn = document.querySelector("#find")
   
